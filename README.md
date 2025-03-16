@@ -21,28 +21,42 @@ download from this repository
 - **Text Normalization:** Lowercasing, punctuation removal
 - **Grammar & Spelling Checks:** Ensuring clarity and correctness
 - **Transformer-based Tokenization:** Handling long essays in BERT
-- 
+
 ## Libraries
 ### General
+
 numpy==1.26.4
+
 pandas==2.2.2
+
 matplotlib==3.7.5
+
 seaborn==0.12.2
+
 scikit-learn==1.2.2
+
 scipy==1.11.4
 
 ### Machine Learning Models
 xgboost==2.0.3
+
 lightgbm==4.2.0
+
 tensorflow==2.15.0
+
 torch==2.2.0
-transformers==4.40.0  # For BERT
-sentencepiece==0.2.0   # Required for some BERT models
+
+transformers==4.40.0 
+
+sentencepiece==0.2.0  
+
 nltk==3.8.1  # For text preprocessing
 
 ### Others
 tqdm==4.66.2
+
 joblib==1.4.2
+
 h5py==3.10.0  # For saving deep learning models
 
 ## Model Performance
