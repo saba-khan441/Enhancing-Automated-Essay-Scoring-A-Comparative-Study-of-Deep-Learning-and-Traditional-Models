@@ -11,8 +11,17 @@ The dataset used in this project is available on **Kaggle**.
 download from here https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data
 ### OR
 download from this repository
+ **Size:** 24,000 argumentative essays
+ **Score Range:** 1 to 6
 
 ![image](https://github.com/user-attachments/assets/6f296225-a68d-42a6-ac2c-81f9f96d2c80)
+
+### Features
+- **Text Statistics:** Word count, sentence count, average sentence length
+- **Text Normalization:** Lowercasing, punctuation removal
+- **Grammar & Spelling Checks:** Ensuring clarity and correctness
+- **Transformer-based Tokenization:** Handling long essays in BERT
+- 
 ## Libraries
 ### General
 numpy==1.26.4
@@ -36,10 +45,12 @@ tqdm==4.66.2
 joblib==1.4.2
 h5py==3.10.0  # For saving deep learning models
 
-## Models Implemented:
-- **Linear Regression** (Cohen’s Kappa: 0.6540)
-- **XGBoost** (Cohen’s Kappa: 0.7100)
-- **LightGBM** (Cohen’s Kappa: 0.7210)
-- **LSTM** (Cohen’s Kappa: 0.7710)
-- **BERT** (Cohen’s Kappa: 0.7806)
+## Model Performance
+| Model               | Cohen’s Kappa | QWK  |
+|--------------------|-------------|------|
+| Linear Regression  | 0.6540      | 0.678 |
+| XGBoost           | 0.7100      | 0.725 |
+| LightGBM          | 0.7210      | 0.739 |
+| LSTM              | 0.7710      | 0.782 |
+| BERT              | **0.7806**  | **0.795** |
   
