@@ -8,10 +8,13 @@ dataset of contemporary educational standards essays. The models used are: Linea
 traditional methods. This study proposes a new public AES system with the goal of improving the efficiency of providing automated evaluation services to teachers while speeding up the objective informational-dependent learning feedback for the students.
 ### Dataset  
 The dataset used in this project is available on **Kaggle**.
-download from here https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data
+download from here 
+https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data
 ### OR
 download from this repository
+
  **Size:** 24,000 argumentative essays
+ 
  **Score Range:** 1 to 6
 
 ![image](https://github.com/user-attachments/assets/6f296225-a68d-42a6-ac2c-81f9f96d2c80)
