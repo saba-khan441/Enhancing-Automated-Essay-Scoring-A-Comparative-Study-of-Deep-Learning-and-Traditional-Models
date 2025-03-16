@@ -11,9 +11,10 @@ The dataset used in this project is available on **Kaggle**.
 download from here https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data
 ### OR
 download from this repository
+
 ![image](https://github.com/user-attachments/assets/6f296225-a68d-42a6-ac2c-81f9f96d2c80)
-### Libraries
-# General
+## Libraries
+### General
 numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.7.5
@@ -21,7 +22,7 @@ seaborn==0.12.2
 scikit-learn==1.2.2
 scipy==1.11.4
 
-# Machine Learning Models
+### Machine Learning Models
 xgboost==2.0.3
 lightgbm==4.2.0
 tensorflow==2.15.0
@@ -30,12 +31,12 @@ transformers==4.40.0  # For BERT
 sentencepiece==0.2.0   # Required for some BERT models
 nltk==3.8.1  # For text preprocessing
 
-# Others
+### Others
 tqdm==4.66.2
 joblib==1.4.2
 h5py==3.10.0  # For saving deep learning models
 
-###  Models Implemented:
+## Models Implemented:
 - **Linear Regression** (Cohen’s Kappa: 0.6540)
 - **XGBoost** (Cohen’s Kappa: 0.7100)
 - **LightGBM** (Cohen’s Kappa: 0.7210)
