@@ -59,6 +59,10 @@ joblib==1.4.2
 
 h5py==3.10.0  # For saving deep learning models
 
+## Evaluation Metric QWK
+![image](https://github.com/user-attachments/assets/10a8eba8-bb4c-4dfb-8b10-4f2ea5c30a68)
+
+
 ## Model Performance
 | Model               | Cohen’s Kappa | QWK  |
 |--------------------|-------------|------|
@@ -67,4 +71,9 @@ h5py==3.10.0  # For saving deep learning models
 | LightGBM          | 0.7210      | 0.739 |
 | LSTM              | 0.7710      | 0.782 |
 | BERT              | **0.7806**  | **0.795** |
+![image](https://github.com/user-attachments/assets/23e2aec8-698d-4a11-8564-99e9ebe47fe3)
+
+  ### Scores on Kaggle Competition
+  ![image](https://github.com/user-attachments/assets/c3bf87d0-a5b6-4f3e-b471-1399eff84af3)
+
   
